@@ -16,6 +16,6 @@ https://mygate-assessment.herokuapp.com
 
 ●	Add new food truck entry to the dataset : /trucks
 
-●	Add new food truck entry to the dataset : /trucks/{id}
+●	Delete new food truck entry to the dataset : /trucks/{id}
 
 ●	Auto expiry of licenses : /trucks/autoexpire
