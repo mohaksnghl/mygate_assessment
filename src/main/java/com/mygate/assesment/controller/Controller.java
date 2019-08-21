@@ -26,6 +26,12 @@ public class Controller {
 		super();
 		this.truckService = truckService;
 	}
+	
+	@GetMapping("")
+	public String hello() {
+		return "Hello";
+	}	
+	
 	//All Trucks
 	@GetMapping("trucks")
 	public List<Truck> getAll(){
