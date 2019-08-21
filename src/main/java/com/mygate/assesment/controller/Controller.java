@@ -29,7 +29,7 @@ public class Controller {
 	
 	@GetMapping("")
 	public String hello() {
-		return "Hello";
+		return "MyGate Assessment";
 	}	
 	
 	//All Trucks
